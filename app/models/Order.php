@@ -7,7 +7,7 @@ use Illuminate\Auth\Reminders\RemindableInterface;
 
 class Order extends Eloquent
 {
-	protected $table      = 'order';
+	protected $table      = 'orders';
 	protected $primaryKey = 'id';
 	public function item()
 	{

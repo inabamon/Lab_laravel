@@ -7,7 +7,7 @@ use Illuminate\Auth\Reminders\RemindableInterface;
 
 class Storage extends Eloquent
 {
-	protected $table      = 'storage';
+	protected $table      = 'storages';
 	protected $primaryKey = 'id';
 
 	public function item()

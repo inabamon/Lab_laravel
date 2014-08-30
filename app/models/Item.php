@@ -18,6 +18,6 @@ class Item extends Eloquent {
 	}
 	public function storage()
 	{
-		return $this->hasMany('Storage');
+		return $this->hasMany('storage');
 	}
 }
