@@ -11,18 +11,14 @@
 |
 */
 
-Route::get('/', function()
-{
+Route::get('/', function () {
 	return View::make('index');
 });
 
 Route::get('bd_imag', array('as' => 'bd_imag.list', 'uses' => 'BdimagController@bdlist'));
 
-Route::get('bd_imag/order', function()
-{
-	return View::make('bd_imag.order');
-});
+Route::get('bd_imag/order', array('as' => 'bd_imag.order', 'uses' => 'BdimagController@getbdorder'));
 
-Route::post('bd_imag/order', array('as' => 'bd_imag.list', 'uses' => 'BdimagController@bdorder'));
+Route::post('bd_imag/order', array('as' => 'bd_imag.order', 'uses' => 'BdimagController@bdorder'));
 
-Route::get('bd_imag/{id}', array('as' => 'bd_imag.list', 'uses' => 'BdimagController@bditem'));
+Route::get('bd_imag/{id}', array('as' => 'bd_imag.list.{id}', 'uses' => 'BdimagController@bditem'));

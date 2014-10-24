@@ -4,9 +4,10 @@
 	@include('head')
 </head>
 <body>
+<div id="wrapper">
 	@include('siderbar')
-	<div class='main  content_right'>
-		@yield('content')
+	@yield('content')
 	</div>
+</div>
 </body>
 </html>
