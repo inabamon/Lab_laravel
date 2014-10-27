@@ -49,9 +49,12 @@
 				</div>
 				<!-- /.panel-body -->
 				<div class="panel-footer">
-					<span>　</span>
-					<div class="pull-right">
-						<button type="button" class="btn btn-primary btn-xs">返回</button>
+					<div class="row">
+						<div class="col-xs-6">
+							<a href="javascript:history.go(-1);">
+								<button type="button" class="btn btn-primary btn-xs">返回</button>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
