@@ -9,6 +9,7 @@
 {{ HTML::style('css/plugins/dataTables.bootstrap.css'); }}
 {{ HTML::style('font-awesome-4.1.0/css/font-awesome.min.css'); }}
 {{ HTML::style('css/sb-admin-2.css'); }}
+{{ HTML::style('css/sweet-alert.css')}}
 {{ HTML::style('css/DefinedCss.css'); }}
 
 {{ HTML::script('javascripts/angular.min.js'); }}
@@ -21,3 +22,4 @@
 {{ HTML::script('javascripts/plugins/dataTables/dataTables.bootstrap.js'); }}
 {{ HTML::script('javascripts/bootstrap-datepicker.js'); }}
 {{ HTML::script('javascripts/sb-admin-2.js'); }}
+{{ HTML::script('javascripts/sweet-alert.min.js')}}
